@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script>
+        function showMessage() {
+    alert("Gmail me on mamgainshubham18@gmail.com");
+}
+function showMessage2() {
+    alert("LinkedIn id Shubham Mamgain");
+}
+function showMessage3() {
+    alert("Whatsapp me on 9318403852");
+}
+function showMessage4() {
+    alert("Instagram id shubham__mamgain__");
+}
+    </script>
+ 
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/coding.html">Coding</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <!-- <li><a href="/projects.html"></a>Projects</li> -->
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+  
+    <div class="infocontainer">
+        <dev class="devinfo">
+            <div class="hello">
+                Hello 
+            </div>
+            <div class="name">
+                I am Shubham Mamgain
+            </div>
+            <div class="about">
+                Student , Programmer , Website developer 
+            </div>
+            <div class="buttons">
+                <div class="button">
+                <button onclick="showMessage()">Gmail</button>
+                <button onclick="showMessage2()">LinkedIn</button>
+                <button onclick="showMessage3()">Whatsapp</button>
+                <button onclick="showMessage4()">Instagram</button>
+            </div>
+            </div>
+
+
+        </dev>
+        <div class="devpic">
+            <img src="https://gcdn.pbrd.co/images/KtTh1tvep4oD.png?o=1" alt="dev image">
+
+        </div>
+
+
+    </div>
+    </div>
+</div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Padauk:wght@700&family=Source+Serif+Pro:wght@200&family=Ubuntu:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Padauk:wght@700&family=Source+Serif+Pro:wght@200&family=Ubuntu:wght@500&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .hamburger{
+            position: absolute;
+            cursor: pointer;
+            top: 10px;
+            left: 10px;
+
+        }
+        .cross{
+            margin-left: 144px;
+        }
+        .infocontainer{
+            background-color: white;
+            height: 55vh;
+            width: 130vh;
+            margin: 90px;
+            display: flex;
+            justify-content: space-around;
+           
+        }
+        .hello{
+            font-size: xx-large;
+
+            
+
+        }
+        .name{
+            font-family:'Dancing Script', cursive;
+            font-size: x-large;
+
+        }
+        .about{
+            font-family:'Dancing Script', cursive;
+            font-size: x-large;
+
+        }
+        .devpic img{
+            width: 334px;
+            height: 55vh;
+        }
+        .sidebar{
+            background-color: rgb(119, 118, 118);
+            height: 100vh;
+            width: 15%;
+        }
+        .devinfo{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        .sidebar nav li{
+            list-style: none;
+            font-size: 20px;
+            padding: 50px;
+            
+        }
+        .sidebar nav li a{
+            text-decoration: none;
+            color: rgb(14, 13, 13);
+            
+        }
+        .sidebargo{
+               transform: translate(-443px,0px);
+               position: absolute;
+           }
+
+        .main{
+            background-color: white;
+        }
+        .container{
+            display: flex;
+        }
+        .buttons button{
+            padding: 4px;
+            border-radius: 2px;
+            margin: 7px;
+            border-radius: 12px;
+            background-color: rgb(24, 96, 250);
+            color: white;
+            font-style: italic;
+            
+        }
+        .buttons button:hover{
+            background-color: white;
+            color: black;
+        }
+        
+        @media (max-width: 1200px) {
+           
+            .infocontainer{
+            background-color: white;
+            height: 55vh;
+            width: 110vh;
+            margin: 10px;
+            margin-left: 0.4%;
+            flex-direction: column-reverse;
+            justify-content: space-around;
+            margin-top: 10%;
+           
+        }
+       
+        .sidebar{
+            background-color: rgb(119, 118, 118);
+            height: 100vh;
+            width: 30%;
+        }
+        .sidebar nav li{
+            text-decoration: none;
+            color: rgb(14, 13, 13);
+            margin-right: auto;
+            
+        }
+        
+
+
+
+          
+
+        }
+            
+        
+
+    </style>
+   
+
+
+
+    
+</body>
+</html>

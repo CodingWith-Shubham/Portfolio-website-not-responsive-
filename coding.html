@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/coding.html">Coding</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <!-- <li><a href="/projects.html"></a>Projects</li> -->
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+    <div class="codingcontainer">
+        <div class="dropdown">
+        <input type="items" list="list-items">
+    
+   
+        <datalist id="list-items">
+            <option value="C stylesheet"></option>
+            <option value="Javascript"></option>
+            <option value="Python"></option>
+            <option value="Html5"></option>
+        
+        
+        </datalist>  
+    </div>  
+        <h1>Coding</h1>
+        <div class="codingblock">
+            <h2>Html - Body of Website</h2>
+            <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+            Web browsers receive HTML documents from a web server or from localstorage and render the documents into multimedia web pages. HTMLdescribes the structure of a web page semantically and originallyincluded cues for the appearance of the document.
+
+                
+                </p>
+            <button class="btn">Read more</button>
+
+        </div>
+        <div class="codingblock2">
+            <h2>Css - Beauty of Website</h2>
+            <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+            CSS is designed to enable the separation of presentation and content,including layout, colors, and fonts. This separation can improvecontent accessibility; provide more flexibility and control in thespecification of presentation characteristics</p>
+
+            <button class="btn">Read more</button>
+        </div>
+        <div class="codingblock3">
+            <h2>Javascript - Heart of Website</h2>
+            <p>JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.[14] It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+            The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.</p>
+            <button class="btn">Read more</button>
+        </div>      
+    </div>
+</div>
+</div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Padauk:wght@700&family=Source+Serif+Pro:wght@200&family=Ubuntu:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Padauk:wght@700&family=Source+Serif+Pro:wght@200&family=Ubuntu:wght@500&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .infocontainer{
+            background-color: white;
+            height: 55vh;
+            width: 130vh;
+            margin: 90px;
+            display: flex;
+            justify-content: space-around;
+           
+        }
+        .dropdown{
+            margin-left: 70%;
+            size: 90px;
+            margin-top: 5%;
+            padding: 22px;
+           
+        }
+        .hello{
+            font-size: xx-large;
+
+            
+
+        }
+        .name{
+            font-family:'Dancing Script', cursive;
+            font-size: x-large;
+
+        }
+        .about{
+            font-family:'Dancing Script', cursive;
+            font-size: x-large;
+
+        }
+        .devpic img{
+            width: 334px;
+            height: 55vh;
+        }
+        .sidebar{
+            background-color:  rgb(143, 142, 142);
+            height: 100vh;
+            width: 15%;
+        }
+        .devinfo{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        .sidebar nav li{
+            list-style: none;
+            font-size: 20px;
+            padding: 50px;
+            
+        }
+        .sidebar nav li a{
+            text-decoration: none;
+            color: rgb(14, 13, 13);
+            
+        }
+        .main{
+            background-color: white;
+        }
+        .container{
+            display: flex;
+        }
+        .btn{
+            padding: 4px;
+            border-radius: 2px;
+            margin: 7px;
+            border-radius: 12px;
+            background-color: rgb(24, 96, 250);
+            color: white;
+            font-style: italic;
+            
+        }
+        .btn:hover{
+            background-color: white;
+            color: black;
+        }
+        .codingcontainer{
+            margin: 10%;
+        }
+        .codingcontainer h1{
+            margin: 5%;
+            margin-left: 29%;
+        }
+        .codingblock{
+            margin: 4%;
+        }
+        .codingblock2{
+            margin: 4%;
+        }
+        .codingblock3{
+            margin: 4%;
+        }
+        @media (max-width: 1200px) {
+            .codingcontainer{
+                margin-left: 25%;
+            }
+            .sidebar{
+                width: 30%;
+                
+            }
+        
+
+
+
+        }
+
+
+    </style>
+
+
+
+
+    
+</body>
+</html>

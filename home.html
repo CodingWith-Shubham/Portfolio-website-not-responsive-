@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/coding.html">Coding</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <!-- <li><a href="/projects.html"></a>Projects</li> -->
+            </ul>
+        </nav>
+    </div>
+    <div class="main">
+    <div class="infocontainer">
+        <dev class="devinfo">
+            <div class="hello">
+                Hello 
+            </div>
+            <div class="name">
+                I am Shubham Mamgain
+            </div>
+            <div class="about">
+                Student , Programmer , Website developer 
+            </div>
+            <div class="buttons">
+                <div class="button">
+                <button>Gmail</button>
+                <button>LinkedIn</button>
+                <button>Whatsapp</button>
+                <button>Instagram</button>
+            </div>
+            </div>
+
+
+        </dev>
+        <dev class="devpic">
+            <img src="https://gcdn.pbrd.co/images/KtTh1tvep4oD.png?o=1" alt="dev image">
+
+        </dev>
+
+
+    </div>
+    </div>
+</div>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Padauk:wght@700&family=Source+Serif+Pro:wght@200&family=Ubuntu:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Open+Sans+Condensed:ital,wght@0,300;1,300&family=Padauk:wght@700&family=Source+Serif+Pro:wght@200&family=Ubuntu:wght@500&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .infocontainer{
+            background-color: white;
+            height: 55vh;
+            width: 130vh;
+            margin: 90px;
+            display: flex;
+            justify-content: space-around;
+           
+        }
+        .hello{
+            font-size: xx-large;
+
+            
+
+        }
+        .name{
+            font-family:'Dancing Script', cursive;
+            font-size: x-large;
+
+        }
+        .about{
+            font-family:'Dancing Script', cursive;
+            font-size: x-large;
+
+        }
+        .devpic img{
+            width: 334px;
+            height: 55vh;
+        }
+        .sidebar{
+            background-color: rgb(150, 147, 147);
+            height: 100vh;
+            width: 15%;
+        }
+        .devinfo{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            
+        }
+        .sidebar nav li{
+            list-style: none;
+            font-size: 20px;
+            padding: 50px;
+            
+        }
+        .sidebar nav li a{
+            text-decoration: none;
+            color: rgb(14, 13, 13);
+            
+        }
+        .main{
+            background-color: white;
+        }
+        .container{
+            display: flex;
+        }
+        .buttons button{
+            padding: 4px;
+            border-radius: 2px;
+            margin: 7px;
+            border-radius: 12px;
+            background-color: rgb(24, 96, 250);
+            color: white;
+            font-style: italic;
+            
+        }
+        .buttons button:hover{
+            background-color: white;
+            color: black;
+        }
+        @media (max-width: 1200px) {
+            .sidebar{
+                width: 30%;
+            }
+            .infocontainer{
+                margin-left: 0.4%;
+                flex-direction: column-reverse;
+            }
+            
+        }
+
+    </style>
+
+
+
+
+    
+</body>
+</html>
